@@ -11,13 +11,16 @@
   <body>
     <div id="form-body">
       <h1>Login</h1>
-      <form name="frmUser" method="post" action="process.php">
-         <input type="email" placeholder="username"/>
-         <input type="password" placeholder="password"/>
+      <form name="frmUser" method="post">
+         <input type="email" name="email" placeholder="email"/>
+         <input type="password" name="password" placeholder="password"/>
          <input type="submit" value="submit"/>
          <a href="signup.php">Not registered yet? Click here. </a>
       </form>
     </div>
+  <?php
+
+  ?>
   
   </body>
 </html>
