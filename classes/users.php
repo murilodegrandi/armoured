@@ -48,7 +48,7 @@ class User
         $sql->bindValue(":e",$email);
         $sql->bindValue(":p",md5($password));
         $sql->execute();
-        if($SQL->rowCount() > 0)
+        if($sql->rowCount() > 0)
         {
             //If valid, then signin(session).
             $data = $sql->fetch();

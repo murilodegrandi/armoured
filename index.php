@@ -3,7 +3,6 @@
   $u = new User();
 ?>
 
-<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -24,7 +23,7 @@
       </form>
     </div>
 <?php
-if (isset($_POST['email']))
+if(isset($_POST['email']))
 {
   $email = addslashes($_POST['email']);
   $password = addslashes($_POST['password']);
