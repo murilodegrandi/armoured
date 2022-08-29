@@ -41,26 +41,26 @@ class User
 }
     
     public function login($email, $password)
-{
-    global $pdo;
-    //verify if user and password are valid.
-    $sql = $pdo->prepare("SELECT id_user FROM users WHERE email = :e AND password = :p");
-    $sql->bindValue(":e",$email);
-    $sql->bindValue(":p",md5($password));
-    $sql->execute();
-    if($SQL->rowCount() > 0)
     {
-        //If valid, then signin(session).
-        $data = $sql->fetch();
-        session_start();
-        $_SESSION["id_user"] = $data["id_user"];
-        return true; //login successful
+        global $pdo;
+        //verify if user and password are valid.
+        $sql = $pdo->prepare("SELECT id_user FROM users WHERE email = :e AND password = :p");
+        $sql->bindValue(":e",$email);
+        $sql->bindValue(":p",md5($password));
+        $sql->execute();
+        if($SQL->rowCount() > 0)
+        {
+            //If valid, then signin(session).
+            $data = $sql->fetch();
+            session_start();
+            $_SESSION["id_user"] = $data["id_user"];
+            return true; //login successful
+        }
+        else
+        {
+            return false; //login failed
+        }
     }
-    else
-    {
-        return false; //login failed
-    }
-}
     
 }
 ?>

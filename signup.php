@@ -43,7 +43,7 @@ if (isset($_POST['name']))
         if($u->signup($name, $email, $password))
         {
           ?>
-          <div id="msg-successful">
+          <div class="msg-success">
           Sign-up successful! Please sign-in to access the platform.
           </div>
           <?php
@@ -70,7 +70,7 @@ if (isset($_POST['name']))
     {
       ?>
       <div class="msg-error">
-        <?php echo "ERROR: ".$u->msgError;?>
+        <?php echo "ERROR: ".$u->msgError; ?>
       </div>
       <?php
     }
@@ -78,7 +78,7 @@ if (isset($_POST['name']))
   {
     ?>
     <div class="msg-error">
-      Please fill out all the filds!
+      Please fill out all the fields!
     </div>
     <?php
   }
