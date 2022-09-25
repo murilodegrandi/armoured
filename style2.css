@@ -24,10 +24,43 @@ a:hover{
     text-decoration: underline;
     color: white;
 }
-p {
-    color:white;
-    padding-top:80px;
+
+div p {
+    padding-top:50px;
     padding-left:10px;
+    padding-right:10px;
+    color:white;
     font-weight: bold;
     font-family: arial;
+    font-size: 20px;
 }
+
+div h1 {
+    padding-top:50px;
+    padding-left:10px;
+    color:grey;
+    font-weight: bolder;
+    font-family: arial;
+    
+}
+
+div h2 {
+    padding-top:80px;
+    padding-left: 800px;
+    color:grey;
+    font-weight: bold;
+    font-family: arial;
+    
+    
+}
+
+div img {
+    position: absolute;
+    padding-top: 50px;
+    padding-left: 350px;
+    padding-bottom: 300px;
+    width: 60%;
+    height: 60%;
+}
+
+

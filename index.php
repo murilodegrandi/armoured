@@ -47,7 +47,7 @@ if(isset($_POST['email']))
       {
           if($u->login($email,$password))
           {
-              header("location: labEnv.php");
+              header("location: resources.php");
           }
           else
           {
