@@ -7,9 +7,9 @@
 body {
     background-image: url(https://images.pexels.com/photos/5380591/pexels-photo-5380591.jpeg?cs=srgb&dl=pexels-tima-miroshnichenko-5380591.jpg&fm=jpg);
     background-position: 50% 70%;
-    color: white;
-    font-family: arial
+    
 }
+
 
 input {
 	display: block;
@@ -42,18 +42,17 @@ div#form-body h1{
     padding: 20px;
 }
 
-a{
+a {
     color: white;
     text-decoration: none;
     text-align-last: center;
     display: block;
-    
 }
 
 a:hover{
     text-decoration: underline;
+    color: white;
 }
-
 .msg-success{
     width: 400px;
     margin: 10px auto;
@@ -69,3 +68,4 @@ a:hover{
     background-color: rgba(250,128,114,.3);
     border: 1px solid rgb(165,42,42);
 }
+

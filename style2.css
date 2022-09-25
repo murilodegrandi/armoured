@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body {
+    background-image: url(https://images.pexels.com/photos/5380591/pexels-photo-5380591.jpeg?cs=srgb&dl=pexels-tima-miroshnichenko-5380591.jpg&fm=jpg);
+    background-position: 50% 70%;
+    
+}
+
+header#top {
+    color:white;
+}
+a {
+    color: white;
+    text-decoration: none;
+    text-align-last: center;
+    display: block;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: white;
+}
+p {
+    color:white;
+    padding-top:80px;
+    padding-left:10px;
+    font-weight: bold;
+    font-family: arial;
+}
