@@ -13,26 +13,27 @@
   </head>
   
   <body>
-  <header id="top">
-    <h1>Armoured DevSec Project</h1>
-    <h2>Web Application Security Lab<h2>
-      
-    <nav id="menu">
-      <ul type="circle">
-        <li><a href="index.php">Home</a></li>
-        <li><a href="about.html">About</a></li>
-      </ul>
-    </nav>
-  </header>
-    <div id="form-body">
-      <h1>Login</h1>
-      <form method="POST">
-         <input type="email" placeholder="email" name="email"/>
-         <input type="password" placeholder="password" name="password"/>
-         <input type="submit" value="submit"/>
-         <a href="signup.php">Not registered yet? Click here. </a>
-      </form>
-    </div>
+      <header id="top">
+        <h1>Armoured DevSec Project</h1>
+        <h2>Web Application Security Lab<h2>
+          
+        <nav id="menu">
+          <ul type="circle">
+            <li><a href="index.php">Home</a></li>
+            <li><a href="about.html">About</a></li>
+          </ul>
+        </nav>
+      </header>
+  
+      <div id="form-body">
+        <h1>Login</h1>
+        <form method="POST">
+           <input type="email" placeholder="email" name="email"/>
+           <input type="password" placeholder="password" name="password"/>
+           <input type="submit" value="submit"/>
+           <a href="signup.php">Not registered yet? Click here. </a>
+        </form>
+      </div>
 <?php
 if(isset($_POST['email']))
 {
