@@ -18,7 +18,7 @@
         <h2>Web Application Security Lab<h2>
           
         <nav id="menu">
-          <ul type="circle">
+          <ul type="none">
             <li><a href="index.php">Home</a></li>
             <li><a href="about.html">About</a></li>
           </ul>

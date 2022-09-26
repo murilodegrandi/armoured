@@ -10,10 +10,53 @@ body {
     
 }
 
-#top {
+#top h1{
     color: silver;
     font-style: arial;
-    padding:30px;
+    font-weight: bolder;
+    padding: 10px 0px 0px 10px;
+}
+#top h2 {
+    color: silver;
+    font-style: arial;
+    padding-left: 30px;
+}
+
+nav#menu {
+    display: block;
+}
+
+nav#menu ul { /*configura estilo e posicionamento dos botoes do menu */
+    list-style: none;
+    text-transform: uppercase;
+    position: absolute;
+    top: 20px;
+    left: 850px;
+}
+nav#menu li { /*configura cores do background dos botoes e distanciamento entre um e outro. */
+    display: inline-block;
+    background-color: #dddd;
+    padding: 10px;
+    margin: 2px;
+    transition: background-color 1s;und /*associado ao tempo do hover para mudar a cor do botao */
+}
+
+nav#menu li:hover { /*muda a cor do fundo do botao quando passar o mouse */
+    background-color: #606060;
+}
+
+nav#menu h1 { /*esconde o texto "menu principal"do HTML, ficando disponivel apenas semanticamente. */
+    display: none;
+}
+
+nav#menu a{ /*muda a cor dos botoes do menu*/
+    color: #000000;
+    text-decoration: none;
+}
+
+nav#menu a:hover { /*muda ara cor da letra e sublinha quando passar com o mouse por cima */
+    color: #ffffff;
+    text-decoration: underline;
 }
 
 a {
