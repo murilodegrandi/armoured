@@ -9,7 +9,7 @@
     <title>Armoured DevSec Project</title>
     <meta name="description" content="My Hacking Lab Project">
     <meta name="author" content="Murilo de Grandi">
-    <link rel="stylesheet" href="style.css"> 
+    <link rel="stylesheet" href="css/style.css"> 
   </head>
   
   <body>
