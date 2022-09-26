@@ -10,10 +10,16 @@
     <title>Armoured DevSec Project</title>
     <meta name="description" content="My Hacking Lab Project">
     <meta name="author" content="Murilo de Grandi">
-    <link rel="stylesheet" href="style.css"> 
+    <link rel="stylesheet" href="css/style.css"> 
   </head>
   
   <body>
+    <nav id="menu">
+      <ul type="none">
+        <li><a href="index.php">Home</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+    </nav>
     <div id="form-body">
       <h1>Sign-up</h1>
       <form name="frmUser" method="post">
