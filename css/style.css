@@ -9,7 +9,11 @@ body {
     background-position: 50% 70%;
     
 }
-
+#top {
+    color: silver;
+    font-style: arial;
+    padding:10px;
+}
 input {
 	display: block;
 	height: 55px;

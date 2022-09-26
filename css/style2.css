@@ -10,9 +10,12 @@ body {
     
 }
 
-header#top {
-    color:white;
+#top {
+    color: silver;
+    font-style: arial;
+    padding:30px;
 }
+
 a {
     color: white;
     text-decoration: none;
@@ -25,7 +28,7 @@ a:hover{
     color: white;
 }
 
-div p {
+#content p {
     padding-top:50px;
     padding-left:10px;
     padding-right:10px;
@@ -35,7 +38,7 @@ div p {
     font-size: 20px;
 }
 
-div h1 {
+#content h1 {
     padding-top:50px;
     padding-left:10px;
     color:grey;
@@ -44,7 +47,7 @@ div h1 {
     
 }
 
-div h2 {
+#content h2 {
     padding-top:80px;
     padding-left: 800px;
     color:grey;
@@ -54,7 +57,7 @@ div h2 {
     
 }
 
-div img {
+#content img {
     position: absolute;
     padding-top: 50px;
     padding-left: 350px;

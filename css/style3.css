@@ -1,0 +1,96 @@
+@charset "UTF-8";
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body {
+    background-image: url(https://images.pexels.com/photos/5380591/pexels-photo-5380591.jpeg?cs=srgb&dl=pexels-tima-miroshnichenko-5380591.jpg&fm=jpg);
+    background-position: 50% 70%;
+    
+}
+
+#top {
+    color: silver;
+    font-style: arial;
+    padding:10px;
+}
+
+
+#content h1 {
+    padding-top:0px;
+    padding-left:900px;
+    color:grey;
+    font-weight: bolder;
+    font-family: arial;
+} 
+#content p {
+    padding-top:10px;
+    padding-left:700px;
+    padding-right:10px;
+    padding-bottom: 20px;
+    color:white;
+    font-family: arial;
+    font-size: 20px;
+}
+
+#box {
+    font-size: 13pt;
+    color: white;
+    background-color: rgba(1,1,1,0.4);
+    padding: 5px 0px 5px 10px;
+    margin: 10px 0px 10px 0px;
+    border: 8px solid #606060;
+    
+}
+
+#box h1 {
+    padding-top:2px;
+    padding-bottom:20px;
+    padding-left:750px;
+    color:silver;
+    font-family: arial;
+    
+}
+
+#box h2 {
+    padding-left:10px;
+    padding-bottom: 20px;
+    color:silver;
+    font-weight: bolder;
+    font-family: arial;
+}
+
+#box p {
+    padding-top:50px;
+    padding-left:10px;
+    padding-right:10px;
+    color:white;
+    font-family: arial;
+    font-size: 20px;
+}
+#box ul {
+    padding-left:50px;
+}
+#box img {
+    position: absolute;
+    padding-top: 50px;
+    padding-left: 350px;
+    padding-bottom: 300px;
+    width: 60%;
+    height: 60%;
+}
+
+#box a {
+    padding-top:0px;
+    padding-left:0px;
+    padding-right:0px;
+    color: grey;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+#box a:hover{
+    text-decoration: underline;
+    color: white;
+}
