@@ -5,17 +5,23 @@
 	padding: 0px;
 }
 body {
-    background-image: url(https://images.pexels.com/photos/5380591/pexels-photo-5380591.jpeg?cs=srgb&dl=pexels-tima-miroshnichenko-5380591.jpg&fm=jpg);
-    background-position: 50% 70%;
-    
+    background-image: url("https://images.pexels.com/photos/5380591/pexels-photo-5380591.jpeg?cs=srgb&dl=pexels-tima-miroshnichenko-5380591.jpg&fm=jpg");
+    background-position: 0% 20%;
+    background-repeat: no-repeat;
+    margin: auto;
 }
-h1{
+
+header {
+    display: block;
+    margin: auto;
+}
+header h1 {
     color: silver;
     font-style: arial;
     font-weight: bolder;
     padding: 10px 0px 0px 10px;
 }
-h2 {
+header h2 {
     color: silver;
     font-style: arial;
     padding-left: 30px;
@@ -25,6 +31,9 @@ h2 {
 
 nav#menu {
     display: block;
+    margin: auto;
+    text-align: center;
+    
 }
 
 nav#menu ul { /*configura estilo e posicionamento dos botoes do menu */
@@ -39,7 +48,7 @@ nav#menu li { /*configura cores do background dos botoes e distanciamento entre 
     background-color: #dddd;
     padding: 10px;
     margin: 2px;
-    transition: background-color 1s;und /*associado ao tempo do hover para mudar a cor do botao */
+    transition: background-color 1s; /*associado ao tempo do hover para mudar a cor do botao */
 }
 
 nav#menu li:hover { /*muda a cor do fundo do botao quando passar o mouse */

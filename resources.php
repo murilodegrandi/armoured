@@ -17,11 +17,7 @@
     </head>
   
     <body>
-        <header id="top">
-            <h1>Armoured DevSec Project</h1>
-            <h2>Web Application Security Lab<h2>
-            <a href="logout.php">Logout</a>
-        </header>
+        <a href="http://172.26.0.140/armoured/index.php" target="_self">Sign out </a>
         <div id="content">
             <h1>Welcome! </h1>
             <p>Here you can find instructions and links to access the lab.</p>

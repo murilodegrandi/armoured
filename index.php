@@ -16,14 +16,14 @@
       <header id="top">
         <h1>Armoured DevSec Project</h1>
         <h2>Web Application Security Lab<h2>
-          
-        <nav id="menu">
-          <ul type="none">
-            <li><a href="index.php">Home</a></li>
-            <li><a href="about.html">About</a></li>
-          </ul>
-        </nav>
-      </header>
+      </header> 
+      <nav id="menu">
+        <ul type="none">
+          <li><a href="index.php">Home</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+      </nav>
+      
   
       <div id="form-body">
         <h1>Login</h1>

@@ -5,36 +5,10 @@
 	padding: 0px;
 }
 body {
-    background-image: url(https://images.pexels.com/photos/5380591/pexels-photo-5380591.jpeg?cs=srgb&dl=pexels-tima-miroshnichenko-5380591.jpg&fm=jpg);
+    background-image: url("https://images.pexels.com/photos/5380591/pexels-photo-5380591.jpeg?cs=srgb&dl=pexels-tima-miroshnichenko-5380591.jpg&fm=jpg");
     background-position: 50% 70%;
-    
-}
-
-#top h1{
-    color: silver;
-    font-style: arial;
-    font-weight: bolder;
-    padding: 10px 0px 0px 10px;
-}
-#top h2 {
-    color: silver;
-    font-style: arial;
-    padding-left: 30px;
-    
-    
-}
-#top a {
-    padding-top:0px;
-    padding-left:1750px;
-    padding-right:0px;
-    color: silver;
-    text-decoration: none;
-    font-weight: bolder;
-}
-
-#top a:hover{
-    text-decoration: underline;
-    color: white;
+    background-repeat: no-repeat;
+    margin: auto;
 }
 
 #content h1 {
