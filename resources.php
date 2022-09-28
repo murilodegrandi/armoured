@@ -17,7 +17,7 @@
     </head>
   
     <body>
-        <a href="http://172.26.0.140/armoured/index.php" target="_self">Sign out </a>
+        <a href="https://murilodegrandi.com/armoured/index.php" target="_self">Sign out </a>
         <div id="content">
             <h1>Welcome! </h1>
             <p>Here you can find instructions and links to access the lab.</p>

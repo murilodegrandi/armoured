@@ -76,7 +76,7 @@ a:hover{
     color: white;
 }
 
-#content p {
+.content p {
     padding-top:50px;
     padding-left:10px;
     padding-right:10px;
@@ -86,7 +86,7 @@ a:hover{
     font-size: 20px;
 }
 
-#content h1 {
+.content h1 {
     padding-top:50px;
     padding-left:10px;
     color:grey;
@@ -95,23 +95,26 @@ a:hover{
     
 }
 
-#content h2 {
+.content h2 {
     padding-top:80px;
     padding-left: 850px;
+    padding-bottom: 20px;
     color:grey;
     font-weight: bold;
     font-family: arial;
+    font-size:20pt;
     
     
 }
 
-#content img {
-    position: absolute;
-    padding-top: 50px;
-    padding-left: 350px;
-    padding-bottom: 300px;
+.content img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     width: 60%;
     height: 60%;
+    border:5px solid lightgreen;
+    padding: 10px 10px 10px 10px;
 }
 
 
