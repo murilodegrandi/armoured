@@ -17,7 +17,7 @@
     </head>
   
     <body>
-        <a href="https://murilodegrandi.com/armoured/index.php" target="_self">Sign out </a>
+        <input type="button" onclick="location.href='https://murilodegrandi.com/armoured/index.php';" value="Sign out" />
         <div id="content">
             <h1>Welcome! </h1>
             <p>Here you can find instructions and links to access the lab.</p>
@@ -35,7 +35,7 @@
             </ul>
         </div>
         <div id="apps">
-            <h1>INSIDE THE LAB</h1>
+            <h1>Lab Walkthrough</h1>
             <img src="images/Screenshot Kasm.jpg"></img>
             <h2>STEP 1: Performing Initial Vulnerability Scan<h2>
             <ol type:"1">
@@ -43,23 +43,30 @@
                 <li>Wait until the initial scan is finalised and click on 🚩ALERTS to check results.</li>
             </ol>
             <h2>STEP 2: Attacking the application </h2>
+            <p><br /><b>From the Kali Linux desktop, double-click on ArmouredAPP to open the app.</b><p>
             <img src="images/app.jpg"></img>
-            <p><b>From the Kali Linux desktop, double-click on ArmouredAPP</b><p>
+            
+            <h2 style="color:grey;"><br />Attacking Challenges</h2>
             <ul type:"circle">
-                <li>Objective 1: Bypass authentication via <b>SQL Injection</b>.</li>
-                <li>Objective 2: Once authenticated, test the *Target field for <b>Reflected Cross-site Scripting(XSS)</b> 
+                <li>Challenge #1: Bypass authentication via <b>SQL Injection</b>.</li>
+                <li>Challenge #2: Once in the restricted area, test the *Target field for <b>Reflected Cross-site Scripting(XSS).</b> 
                 by making it show a pop-up window with some message. </li>
-                <li>Objective 3: Access the passwd file from the server via <b>OS Command Injection</b>. </li>
+                <li>Challenge #3: Access the system users (passwd file) of the server via <b>OS Command Injection.</b>. </li>
             </ul>
-            <h2>STEP 3: Fixing vulnerabilities</h2>
-            <p><b>Using Cloud9 IDE</b></p>
+            <h2><br />STEP 3: Remediating code flaws</h2>
+            <p><br /><b>Using Cloud9 IDE to review the source-code.</b></p>
             <ol type:"1">
                 <li>Double-click on IDE-Cloud9 and sign in using credentials from IDE-Cloud9 Credentials file found in the Desktop.</li>
                 <li>Click on Cloud9 > Shared with you > Open IDE</li>
-                <li>Perform code review and click on save to apply the changes.</li>
-                <li>Once the changes were made, attempt attacks again and go back to ZAP Proxy to run a new scan in order to verify if the vulnerabilities were eliminated.</li>
+                <li>Implement code fixes, save the file and reload the webpage to verify the changes.</li>
+                <li>Once the changes have been made, attempt attacking again and then run a new Active Scan on ZAP to verify whether the vulnerabilities were eliminated or not.</li>
             </ol>
             <p><br>Note: If required, run "git restore *" from the Terminal window to restore the app to the original version.</p>
+            <h2 style="color:grey;">Remediation Challenges<br /></h2>
+            <ul type:"circle">
+                <li>Challenge #4: Remediate <b>SQL Injection</b> flaw.</li>
+                <li>Challenge #5: Remediate both <b>Command Injection</b> and <b>Reflected Cross-site Scripting(XSS).</b></li>
+            
         </div>
             
         

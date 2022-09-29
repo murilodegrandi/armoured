@@ -31,35 +31,35 @@ nav#menu {
     display: block;
 }
 
-nav#menu ul { /*configura estilo e posicionamento dos botoes do menu */
+nav#menu ul {
     list-style: none;
     text-transform: uppercase;
     position: absolute;
     top: 20px;
     left: 850px;
 }
-nav#menu li { /*configura cores do background dos botoes e distanciamento entre um e outro. */
+nav#menu li { 
     display: inline-block;
     background-color: #dddd;
     padding: 10px;
     margin: 2px;
-    transition: background-color 1s; /*associado ao tempo do hover para mudar a cor do botao */
+    transition: background-color 1s; 
 }
 
-nav#menu li:hover { /*muda a cor do fundo do botao quando passar o mouse */
+nav#menu li:hover { 
     background-color: #606060;
 }
 
-nav#menu h1 { /*esconde o texto "menu principal"do HTML, ficando disponivel apenas semanticamente. */
+nav#menu h1 { 
     display: none;
 }
 
-nav#menu a{ /*muda a cor dos botoes do menu*/
+nav#menu a{ 
     color: #000000;
     text-decoration: none;
 }
 
-nav#menu a:hover { /*muda ara cor da letra e sublinha quando passar com o mouse por cima */
+nav#menu a:hover { 
     color: #ffffff;
     text-decoration: underline;
 }
@@ -81,7 +81,6 @@ a:hover{
     padding-left:10px;
     padding-right:10px;
     color:white;
-    font-weight: bold;
     font-family: arial;
     font-size: 20px;
 }
@@ -111,10 +110,14 @@ a:hover{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 60%;
-    height: 60%;
-    border:5px solid lightgreen;
-    padding: 10px 10px 10px 10px;
+    border:5px solid silver;
+    width: 40%;
+    height: 40%;
 }
 
-
+ul {
+    text-align:center;
+    color:white;
+    font-family: arial;
+    font-size: 30px;
+}
