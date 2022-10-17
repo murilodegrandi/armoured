@@ -61,7 +61,7 @@
                 <li>Implement code fixes, save the file and reload the webpage to verify the changes.</li>
                 <li>Once the changes have been made, attempt attacking again and then run a new Active Scan on ZAP to verify whether the vulnerabilities were eliminated or not.</li>
             </ol>
-            <p><br>Note: If required, run "git restore *" from the Terminal window to restore the app to the original version.</p>
+            <p><br>Note: If required, you can run "git restore *" at anytime from the Terminal window to restore the vulnerable app to the original version.</p>
             <h2 style="color:grey;">Remediation Challenges<br /></h2>
             <ul type:"circle">
                 <li>Challenge #4: Remediate <b>SQL Injection</b> flaw.</li>

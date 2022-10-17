@@ -21,13 +21,13 @@
       </ul>
     </nav>
     <div id="form-body">
-      <h1>Sign-up</h1>
+      <h1>User Registration</h1>
       <form name="frmUser" method="post">
          <input type="text" name="name" placeholder="Full Name" maxlength="30"/>
-         <input type="email" name="email" placeholder="Username" maxlength="40"/>
+         <input type="email" name="email" placeholder="Email" maxlength="40"/>
          <input type="password" name="password" placeholder="Password" maxlength="15"/>
          <input type="password" name="confPassword" placeholder="Confirm Password"/>
-         <input type="submit" value="Sign-up"/>
+         <input type="submit" value="Sign up"/>
       </form>
     </div>
 <?php
@@ -49,15 +49,16 @@ if (isset($_POST['name']))
         if($u->signup($name, $email, $password))
         {
           ?>
-          <div class="msg-success">
-          Sign-up successful! Please sign-in to access the platform.
+          <div class="msg-success" style="color: green;">
+            Sign up successful! Please sign in to start using the lab.
           </div>
           <?php
+            header('Refresh: 3; URL = index.php');
         }
         else
         {
           ?>
-          <div class="msg-error">
+          <div class="msg-error" style="color: red;">
           Email already exists!
           </div>
           <?php
