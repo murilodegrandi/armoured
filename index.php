@@ -52,7 +52,7 @@ if(isset($_POST['email']))
           else
           {
             ?>
-            <div class="msg-error">
+            <div class="msg-error" style="color: red;">
               Incorrect email or password!
             </div>
             <?php
