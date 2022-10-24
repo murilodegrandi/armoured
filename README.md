@@ -1,2 +1,6 @@
 # armoured
-This repository holds part of the code used in the the final project for my Bachelors of Cybersecurity degree.
+This repository holds the code to create the Web Portal page of my final project for the Bachelors of Cybersecurity degree.
+
+Project Proposal
+To create a Web Application Security Lab that provides security training about injection vulnerabilities and enables the practice of secure code review in the AWS cloud environment.
+
