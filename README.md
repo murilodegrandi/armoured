@@ -1,2 +1,2 @@
 # armoured
-This repository belongs to  Armoured DevSec Project - TAFE NSW
+This repository holds part of the code used in the the final project for my Bachelors of Cybersecurity degree.
